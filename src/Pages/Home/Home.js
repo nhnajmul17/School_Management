@@ -1,11 +1,15 @@
 import React from 'react';
+import Banner from '../../Components/HomePageComp/Banner/Banner';
+import Principal from '../../Components/HomePageComp/Principal/Principal';
 
 const Home = () => {
     return (
         <div>
-            <h1>THis is Home page</h1>
+            <Banner></Banner>
+            <Principal></Principal>
 
-        </div>
+
+        </div >
     );
 };
 
